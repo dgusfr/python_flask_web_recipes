@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais (se você criar um no futuro)
+venv/
+env/
+.env
+
+# Banco de dados (se usar sqlite local)
+*.sqlite3
+*.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Mac OS
+.DS_Store
