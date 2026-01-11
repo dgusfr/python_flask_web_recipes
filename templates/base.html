@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Receitas da Sônia</title>
+  <link rel="shortcut icon" href="{{ url_for('static', filename='assets/receitas.png') }}" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-center">
+      <div class="nav-header">
+        <a href="/" class="nav-logo">
+          <img src="{{ url_for('static', filename='assets/logo.png') }}" alt="Receitas da Sonia" />
+        </a>
+        <button class="nav-btn btn">
+          <i class="fas fa-align-justify"></i>
+        </button>
+      </div>
+      <div class="nav-links">
+        <a href="/" class="nav-link"> Home </a>
+        <a href="about.html" class="nav-link"> Sobre </a>
+        <a href="tags.html" class="nav-link"> Categorias </a>
+        <a href="recipes.html" class="nav-link"> Receitas </a>
+        <div class="nav-link contact-link">
+          <a href="contact.html" class="btn"> Contato </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <main class="page">
+    {% block content %}
+    {% endblock %}
+  </main>
+  <footer class="page-footer">
+    <p>
+      &copy; <span id="date"></span>
+      <span class="footer-logo">Receitas da Sônia</span> Feito por Diego Franco.
+    </p>
+  </footer>
+  <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</body>
+</html>

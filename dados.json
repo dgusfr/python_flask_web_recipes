@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "titulo": "Carne Assada",
+    "imagem": "recipes/recipe-1.jpeg",
+    "tempo_preparo": "15min",
+    "tempo_cozimento": "5min",
+    "tags": ["Carne", "Almoço"],
+    "ingredientes": ["1kg de carne", "Sal", "Pimenta"],
+    "modo_preparo": ["Tempere a carne", "Asse por 15 min"]
+  },
+  {
+    "id": 2,
+    "titulo": "Costela",
+    "imagem": "recipes/recipe-2.jpeg",
+    "tempo_preparo": "30min",
+    "tempo_cozimento": "40min",
+    "tags": ["Carne", "Jantar"],
+    "ingredientes": ["Costela", "Barbecue"],
+    "modo_preparo": ["Ferva a costela", "Adicione molho"]
+  },
+  {
+    "id": 3,
+    "titulo": "Sopa de Vegetais",
+    "imagem": "recipes/recipe-3.jpeg",
+    "tempo_preparo": "10min",
+    "tempo_cozimento": "20min",
+    "tags": ["Vegetariano", "Sopa"],
+    "ingredientes": ["Cenoura", "Batata", "Água"],
+    "modo_preparo": ["Corte tudo", "Cozinhe na água"]
+  },
+    {
+    "id": 4,
+    "titulo": "Panqueca de Banana",
+    "imagem": "recipes/recipe-4.jpeg",
+    "tempo_preparo": "5min",
+    "tempo_cozimento": "5min",
+    "tags": ["Café da manhã", "Doce"],
+    "ingredientes": ["Banana", "Ovo", "Aveia"],
+    "modo_preparo": ["Amasse a banana", "Misture o ovo", "Frite"]
+  }
+]
