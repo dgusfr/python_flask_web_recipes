@@ -35,6 +35,29 @@
   margin: 0;
 }
 
-.mais_acessadas h1 {
-  margin: 25px 25px 25px 0;
+@media screen and (max-width: 768px) {
+  .banner {
+    flex-direction: column;
+    height: auto;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .banner .info {
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+  .banner .info h1 {
+    font-size: 2rem;
+  }
+  .banner .info p {
+    width: 100%;
+    height: auto;
+    font-size: 1.1rem;
+  }
+  .banner img {
+    height: 250px;
+    width: auto;
+    margin-top: 1rem;
+  }
 }

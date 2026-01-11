@@ -53,6 +53,18 @@
   display: block;
 }
 
+.recipe h5 {
+  color: var(--black);
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.recipe p {
+  color: var(--black);
+  margin-bottom: 0;
+  font-size: 0.85rem;
+}
+
 .recipe-img {
   height: 15rem;
   border-radius: var(--borderRadius);
