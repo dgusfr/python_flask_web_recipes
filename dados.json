@@ -1,42 +1,439 @@
 [
   {
     "id": 1,
-    "titulo": "Carne Assada",
+    "titulo": "Picadinho de Carne ao Vinho",
     "imagem": "recipes/recipe-1.jpeg",
-    "tempo_preparo": "15min",
-    "tempo_cozimento": "5min",
-    "tags": ["Carne", "Almoço"],
-    "ingredientes": ["1kg de carne", "Sal", "Pimenta", "Alecrim"],
-    "modo_preparo": ["Tempere a carne com sal e pimenta.", "Deixe marinar por 2 horas.", "Asse em fogo médio por 15 minutos."]
+    "tempo_preparo": "30min",
+    "tempo_cozimento": "40min",
+    "tags": ["Carne", "Jantar", "Clássico"],
+    "ingredientes": [
+      "500g de alcatra em cubos pequenos",
+      "1 cebola roxa picada",
+      "2 dentes de alho picados",
+      "1/2 xícara de vinho tinto seco",
+      "1 xícara de caldo de carne caseiro",
+      "2 colheres (sopa) de extrato de tomate",
+      "Azeite, sal e pimenta-do-reino a gosto"
+    ],
+    "modo_preparo": [
+      "Tempere a carne com sal e pimenta. Aqueça bem uma panela com azeite e doure a carne aos poucos (não coloque tudo de uma vez para não juntar água). Reserve a carne dourada.",
+      "Na mesma panela (suja de carne mesmo, isso dá sabor), refogue a cebola até murchar e depois o alho.",
+      "Adicione o extrato de tomate e mexa bem. Despeje o vinho tinto e raspe o fundo da panela para soltar o 'queimadinho' (deglacer).",
+      "Volte a carne para a panela, adicione o caldo de carne e deixe cozinhar em fogo baixo, com a tampa entreaberta, por cerca de 30 minutos ou até o molho encorpar.",
+      "Acerte o sal e sirva com arroz branco e farofa."
+    ]
   },
   {
     "id": 2,
-    "titulo": "Costela",
+    "titulo": "Risoto de Abóbora com Carne Seca",
     "imagem": "recipes/recipe-2.jpeg",
-    "tempo_preparo": "30min",
-    "tempo_cozimento": "40min",
-    "tags": ["Carne", "Jantar"],
-    "ingredientes": ["2kg de costela", "Molho Barbecue", "Sal grosso"],
-    "modo_preparo": ["Ferva a costela na água com sal.", "Escorra e passe o molho barbecue.", "Leve ao forno por 40 minutos."]
+    "tempo_preparo": "20min",
+    "tempo_cozimento": "30min",
+    "tags": ["Arroz", "Sofisticado"],
+    "ingredientes": [
+      "1 xícara de arroz arbóreo (próprio para risoto)",
+      "200g de carne seca dessalgada, cozida e desfiada",
+      "1 xícara de purê de abóbora cabotiá",
+      "1/2 cebola picada",
+      "1/2 xícara de vinho branco",
+      "1 litro de caldo de legumes quente",
+      "1 colher (sopa) de manteiga gelada e queijo parmesão para finalizar"
+    ],
+    "modo_preparo": [
+      "Numa panela, refogue a cebola no azeite até ficar transparente. Junte o arroz e refogue por 2 minutos para envolver os grãos.",
+      "Adicione o vinho branco e mexa até secar quase completamente (isso tira a acidez).",
+      "Comece a adicionar o caldo de legumes quente, uma concha de cada vez, mexendo sempre. Quando secar, coloque mais uma.",
+      "Na metade do cozimento, misture o purê de abóbora e a carne seca.",
+      "Continue o processo até o arroz ficar 'al dente'. Desligue o fogo, adicione a manteiga gelada e o queijo parmesão. Mexa vigorosamente para dar brilho e cremosidade (mantecatura)."
+    ]
   },
   {
     "id": 3,
-    "titulo": "Sopa de Vegetais",
+    "titulo": "Frango Assado com Limão e Ervas",
     "imagem": "recipes/recipe-3.jpeg",
-    "tempo_preparo": "10min",
-    "tempo_cozimento": "20min",
-    "tags": ["Vegetariano", "Sopa"],
-    "ingredientes": ["3 Cenouras", "4 Batatas", "1 Litro de Água", "Salsinha"],
-    "modo_preparo": ["Corte todos os legumes em cubos.", "Cozinhe na água fervente até ficarem macios.", "Tempere a gosto."]
+    "tempo_preparo": "15min",
+    "tempo_cozimento": "1h 20min",
+    "tags": ["Aves", "Almoço de Domingo"],
+    "ingredientes": [
+      "4 coxas com sobrecoxas de frango",
+      "Suco de 2 limões",
+      "4 batatas cortadas em gomos",
+      "4 dentes de alho amassados com casca",
+      "Ramos de alecrim e tomilho frescos",
+      "Azeite, sal e pimenta a gosto"
+    ],
+    "modo_preparo": [
+      "Em uma tigela, tempere o frango com o suco de limão, sal, pimenta e azeite. Deixe marinar por pelo menos 30 minutos na geladeira.",
+      "Pré-aqueça o forno a 200ºC. Numa assadeira, disponha os pedaços de frango e as batatas entre eles.",
+      "Espalhe os dentes de alho com casca e as ervas por cima. Regue tudo com bastante azeite.",
+      "Leve ao forno por cerca de 1 hora e 20 minutos. Na metade do tempo, vire as batatas para dourarem por igual.",
+      "O frango deve ficar com a pele bem dourada e crocante e a carne suculenta."
+    ]
   },
   {
     "id": 4,
-    "titulo": "Panqueca de Banana",
+    "titulo": "Escondidinho de Mandioca Cremoso",
     "imagem": "recipes/recipe-4.jpeg",
+    "tempo_preparo": "40min",
+    "tempo_cozimento": "20min",
+    "tags": ["Prato Único", "Brasileiro"],
+    "ingredientes": [
+      "1kg de mandioca cozida bem macia",
+      "1 colher (sopa) de manteiga",
+      "1/2 xícara de leite quente",
+      "500g de carne moída refogada bem sequinha",
+      "Queijo coalho ou parmesão ralado para gratinar"
+    ],
+    "modo_preparo": [
+      "Passe a mandioca quente pelo espremedor ou amasse bem com um garfo (tire os fios do meio).",
+      "Volte a mandioca para a panela, junte a manteiga e o leite aos poucos, mexendo até virar um purê firme e cremoso. Tempere com sal.",
+      "Em um refratário, faça uma cama com o refogado de carne moída.",
+      "Cubra com o purê de mandioca, alisando bem a superfície.",
+      "Polvilhe o queijo ralado e leve ao forno alto (220ºC) apenas para gratinar e formar aquela casquinha dourada."
+    ]
+  },
+  {
+    "id": 5,
+    "titulo": "Macarrão Carbonara (Estilo Rita)",
+    "imagem": "recipes/recipe-1.jpeg",
+    "tempo_preparo": "10min",
+    "tempo_cozimento": "15min",
+    "tags": ["Massa", "Rápido"],
+    "ingredientes": [
+      "300g de espaguete",
+      "150g de bacon em cubos",
+      "3 ovos inteiros + 1 gema",
+      "1 xícara de queijo parmesão ralado fino",
+      "Pimenta-do-reino moída na hora (essencial)"
+    ],
+    "modo_preparo": [
+      "Coloque a água do macarrão para ferver. Enquanto isso, frite o bacon na própria gordura até ficar crocante. Desligue e espere amornar.",
+      "Numa tigela, bata os ovos, a gema, o queijo ralado e bastante pimenta-do-reino até formar um creme amarelo.",
+      "Cozinhe o macarrão. Quando estiver pronto, escorra mas GUARDE 1 xícara da água do cozimento.",
+      "O Pulo do Gato: Jogue a massa quente na frigideira do bacon (fora do fogo). Adicione o creme de ovos e mexa vigorosamente sem parar.",
+      "O calor da massa cozinha os ovos e cria o creme. Se ficar muito grosso, coloque um pouquinho da água do cozimento. Não leve ao fogo para não virar ovo mexido!"
+    ]
+  },
+  {
+    "id": 6,
+    "titulo": "Creme de Legumes da Roça",
+    "imagem": "recipes/recipe-2.jpeg",
+    "tempo_preparo": "15min",
+    "tempo_cozimento": "25min",
+    "tags": ["Sopa", "Jantar Leve"],
+    "ingredientes": [
+      "2 cenouras",
+      "2 batatas",
+      "1 abobrinha",
+      "1 cebola",
+      "1 litro de caldo de legumes ou frango",
+      "Cebolinha picada para finalizar"
+    ],
+    "modo_preparo": [
+      "Lave e descasque os legumes. Corte tudo em cubos médios.",
+      "Refogue a cebola no azeite. Junte os legumes e refogue por 2 minutos.",
+      "Cubra com o caldo e cozinhe até que fiquem bem macios (espete com o garfo para testar).",
+      "Bata tudo no liquidificador até obter um creme liso (cuidado com o vapor quente!).",
+      "Volte para a panela, acerte o sal e aqueça. Sirva com um fio de azeite e cebolinha fresca."
+    ]
+  },
+  {
+    "id": 7,
+    "titulo": "Omelete de Forno Colorida",
+    "imagem": "recipes/recipe-3.jpeg",
+    "tempo_preparo": "10min",
+    "tempo_cozimento": "20min",
+    "tags": ["Ovos", "Prático"],
+    "ingredientes": [
+      "6 ovos",
+      "1/2 xícara de leite",
+      "1 cenoura ralada",
+      "1/2 abobrinha ralada",
+      "Tomatinhos cereja cortados ao meio",
+      "Orégano e sal a gosto"
+    ],
+    "modo_preparo": [
+      "Pré-aqueça o forno a 180ºC e unte uma assadeira pequena ou forminhas de muffin.",
+      "Numa tigela, bata os ovos com o leite, sal e orégano com um garfo (não precisa bater muito).",
+      "Misture os legumes ralados e os tomatinhos.",
+      "Despeje na forma e leve ao forno por cerca de 20 minutos ou até firmar e dourar levemente.",
+      "É uma ótima opção para um jantar leve e rápido."
+    ]
+  },
+  {
+    "id": 8,
+    "titulo": "Peixe no Papelote com Legumes",
+    "imagem": "recipes/recipe-4.jpeg",
+    "tempo_preparo": "15min",
+    "tempo_cozimento": "20min",
+    "tags": ["Peixe", "Saudável"],
+    "ingredientes": [
+      "2 filés de tilápia ou saint peter",
+      "1 tomate cortado em rodelas",
+      "1/2 cebola em rodelas",
+      "Azeitonas pretas",
+      "Azeite, sal e limão"
+    ],
+    "modo_preparo": [
+      "Corte dois quadrados grandes de papel alumínio.",
+      "No centro de cada um, faça uma 'cama' com as rodelas de cebola e tomate. Coloque o peixe por cima.",
+      "Tempere o peixe com sal, limão e regue com bastante azeite. Jogue as azeitonas.",
+      "Feche o papel alumínio unindo as pontas, formando um envelope bem lacrado (o ar quente vai cozinhar o peixe no vapor).",
+      "Leve ao forno pré-aquecido a 200ºC por 20 minutos. Sirva abrindo o pacote no prato."
+    ]
+  },
+  {
+    "id": 9,
+    "titulo": "Bolo de Cenoura com Chocolate Crocante",
+    "imagem": "recipes/recipe-1.jpeg",
+    "tempo_preparo": "20min",
+    "tempo_cozimento": "45min",
+    "tags": ["Doce", "Bolo", "Lanche"],
+    "ingredientes": [
+      "3 cenouras médias (descascadas e picadas)",
+      "4 ovos",
+      "1 xícara de óleo de milho",
+      "2 xícaras de açúcar",
+      "2 e 1/2 xícaras de farinha de trigo",
+      "1 colher (sopa) de fermento",
+      "Para a Calda: 1 xícara de açúcar, 1 xícara de chocolate em pó, 50g de manteiga, um pouquinho de leite."
+    ],
+    "modo_preparo": [
+      "No liquidificador, bata a cenoura, o óleo e os ovos até obter um creme bem liso e alaranjado.",
+      "Numa tigela grande, misture o açúcar e a farinha peneirada. Despeje o creme de cenoura e misture delicadamente com um fouet (batedor de arame) até incorporar.",
+      "Adicione o fermento por último. Asse em forno médio (180ºC) por 40-45min.",
+      "Calda: Misture tudo na panela e deixe ferver até engrossar. Despeje quente sobre o bolo para formar aquela casquinha crocante."
+    ]
+  },
+  {
+    "id": 10,
+    "titulo": "Pudim de Leite (Sem Furinhos)",
+    "imagem": "recipes/recipe-2.jpeg",
+    "tempo_preparo": "20min",
+    "tempo_cozimento": "1h 30min",
+    "tags": ["Doce", "Sobremesa Clássica"],
+    "ingredientes": [
+      "1 lata de leite condensado",
+      "2 medidas (da lata) de leite integral",
+      "3 ovos",
+      "1 xícara de açúcar (para o caramelo)"
+    ],
+    "modo_preparo": [
+      "Faça o caramelo: derreta o açúcar na própria forma de pudim até virar uma calda dourada. Cuidado para não queimar. Espalhe pelas laterais.",
+      "No liquidificador, bata o leite condensado, o leite e os ovos. Se quiser sem furinhos, bata pouco e deixe a espuma baixar antes de colocar na forma.",
+      "Cubra a forma com papel alumínio e asse em BANHO-MARIA no forno baixo (160ºC) por 1h30min.",
+      "O segredo é o cozimento lento. Deixe gelar por pelo menos 4 horas antes de desenformar."
+    ]
+  },
+  {
+    "id": 11,
+    "titulo": "Mousse de Chocolate Aerado",
+    "imagem": "recipes/recipe-3.jpeg",
+    "tempo_preparo": "30min",
+    "tempo_cozimento": "4h (geladeira)",
+    "tags": ["Doce", "Festa"],
+    "ingredientes": [
+      "200g de chocolate meio amargo de boa qualidade",
+      "1 lata de creme de leite (sem soro)",
+      "3 claras",
+      "3 colheres (sopa) de açúcar"
+    ],
+    "modo_preparo": [
+      "Derreta o chocolate em banho-maria ou no microondas (de 30 em 30 segundos).",
+      "Misture o creme de leite ao chocolate derretido e mexa bem. Reserve.",
+      "Na batedeira, bata as claras em neve. Quando espumar, adicione o açúcar e bata até ficar firme.",
+      "Incorpore 1/3 das claras ao chocolate e misture para 'amaciar' o creme. Depois, junte o restante das claras e misture DELICADAMENTE, de baixo para cima, para não perder o ar.",
+      "Leve para gelar por 4 horas antes de servir."
+    ]
+  },
+  {
+    "id": 12,
+    "titulo": "Bolo de Milho Cremoso de Liquidificador",
+    "imagem": "recipes/recipe-4.jpeg",
+    "tempo_preparo": "10min",
+    "tempo_cozimento": "50min",
+    "tags": ["Doce", "Café da Tarde"],
+    "ingredientes": [
+      "1 lata de milho verde (escorra a água)",
+      "1 lata de leite condensado",
+      "1 pacote de coco ralado (100g)",
+      "1 colher (sopa) de manteiga",
+      "3 ovos",
+      "1 colher (sopa) de fermento em pó"
+    ],
+    "modo_preparo": [
+      "Basta colocar todos os ingredientes no liquidificador, exceto o fermento.",
+      "Bata bem até triturar o milho.",
+      "Adicione o fermento e aperte a função 'pulsar' apenas para misturar.",
+      "Despeje em uma forma untada e enfarinhada (ou use fubá para untar).",
+      "Asse em forno pré-aquecido a 180ºC por cerca de 50 minutos. Ele fica úmido no centro, parecendo uma pamonha de forno."
+    ]
+  },
+  {
+    "id": 13,
+    "titulo": "Torta de Limão com Merengue",
+    "imagem": "recipes/recipe-1.jpeg",
+    "tempo_preparo": "40min",
+    "tempo_cozimento": "10min",
+    "tags": ["Doce", "Azedinho"],
+    "ingredientes": [
+      "Massa: 200g de biscoito maisena triturado + 100g de manteiga derretida",
+      "Recheio: 2 latas de leite condensado + 1 caixinha de creme de leite + suco de 4 limões taiti",
+      "Cobertura: 3 claras + 3/4 xícara de açúcar"
+    ],
+    "modo_preparo": [
+      "Misture o biscoito com a manteiga até virar uma farofa úmida. Forre o fundo de uma forma e leve ao forno por 10min só para firmar.",
+      "Bata no liquidificador o leite condensado, creme de leite e o suco de limão. O creme vai engrossar na hora por causa da acidez. Despeje sobre a massa fria.",
+      "Bata as claras com açúcar em banho-maria até o açúcar derreter, depois leve à batedeira até virar merengue firme.",
+      "Cubra a torta com o merengue e use um maçarico ou o forno bem alto rapidinho só para dourar as pontinhas."
+    ]
+  },
+  {
+    "id": 14,
+    "titulo": "Arroz Doce Caramelizado",
+    "imagem": "recipes/recipe-2.jpeg",
+    "tempo_preparo": "10min",
+    "tempo_cozimento": "40min",
+    "tags": ["Doce", "Festa Junina"],
+    "ingredientes": [
+      "1 xícara de arroz branco",
+      "1 litro de leite",
+      "1 xícara de açúcar",
+      "Canela em pau e cravos",
+      "Casca de limão ou laranja"
+    ],
+    "modo_preparo": [
+      "Cozinhe o arroz em 2 xícaras de água até secar.",
+      "Enquanto isso, em outra panela, derreta o açúcar até virar um caramelo claro. Adicione o leite quente com cuidado (vai borbulhar!). Mexa até dissolver o caramelo no leite.",
+      "Jogue esse 'leite caramelizado' no arroz cozido. Adicione a canela e a casca de limão.",
+      "Cozinhe em fogo baixo, mexendo de vez em quando, até ficar super cremoso. Sirva polvilhado com canela em pó."
+    ]
+  },
+  {
+    "id": 15,
+    "titulo": "Brigadeiro de Colher Perfeito",
+    "imagem": "recipes/recipe-3.jpeg",
     "tempo_preparo": "5min",
-    "tempo_cozimento": "5min",
-    "tags": ["Café da manhã", "Doce"],
-    "ingredientes": ["2 Bananas maduras", "2 Ovos", "1 xícara de Aveia", "Canela"],
-    "modo_preparo": ["Amasse as bananas.", "Misture com os ovos e a aveia.", "Frite em uma frigideira untada até dourar."]
+    "tempo_cozimento": "15min",
+    "tags": ["Doce", "Brasileiro"],
+    "ingredientes": [
+      "1 lata de leite condensado",
+      "1 caixinha de creme de leite (o segredo da cremosidade)",
+      "4 colheres (sopa) de chocolate em pó 50% cacau (não use achocolatado)",
+      "1 colher (sopa) de manteiga"
+    ],
+    "modo_preparo": [
+      "Numa panela, misture o leite condensado e o chocolate em pó fora do fogo para dissolver as bolinhas.",
+      "Adicione o creme de leite e a manteiga. Leve ao fogo médio/baixo.",
+      "Mexa sem parar com uma espátula de silicone, raspando sempre as laterais e o fundo.",
+      "Ponto de colher: Quando a mistura borbulhar e começar a desgrudar levemente da lateral, mas ainda estiver mole, desligue. Ele endurece ao esfriar.",
+      "Sirva em copinhos ou coma na panela mesmo!"
+    ]
+  },
+  {
+    "id": 16,
+    "titulo": "Pavê de Chocolate (Receita de Vó)",
+    "imagem": "recipes/recipe-4.jpeg",
+    "tempo_preparo": "40min",
+    "tempo_cozimento": "15min",
+    "tags": ["Doce", "Natal"],
+    "ingredientes": [
+      "1 pacote de biscoito champanhe ou maizena",
+      "Creme Branco: 1 leite condensado, 2 medidas de leite, 2 gemas, 2 colheres de amido de milho",
+      "Creme Chocolate: 200g de chocolate derretido + 1 creme de leite",
+      "Leite com achocolatado para molhar os biscoitos"
+    ],
+    "modo_preparo": [
+      "Faça o creme branco: leve tudo ao fogo mexendo sempre até engrossar (dilua o amido no leite frio antes). Deixe esfriar com um plástico em contato para não criar película.",
+      "Faça o ganache: misture o chocolate derretido com o creme de leite.",
+      "Montagem: Molhe os biscoitos no leite rapidamente. Faça camadas: Creme Branco -> Biscoito -> Ganache -> Biscoito.",
+      "Leve para gelar por no mínimo 4 horas. Pavê gostoso é pavê gelado!"
+    ]
+  },
+  {
+    "id": 17,
+    "titulo": "Crumble de Maçã Quentinho",
+    "imagem": "recipes/recipe-1.jpeg",
+    "tempo_preparo": "20min",
+    "tempo_cozimento": "30min",
+    "tags": ["Doce", "Inverno"],
+    "ingredientes": [
+      "4 maçãs (Gala ou Fuji) descascadas e picadas em cubos",
+      "Suco de meio limão e 1 colher de canela em pó",
+      "Farofa: 1 xícara de farinha de trigo, 1/2 xícara de açúcar, 100g de manteiga gelada em cubos"
+    ],
+    "modo_preparo": [
+      "Tempere as maçãs com limão e canela e espalhe no fundo de um refratário.",
+      "Numa tigela, misture a farinha e o açúcar. Jogue a manteiga gelada e amasse com a ponta dos dedos até virar uma 'farofa' grossa (não deixe a manteiga derreter totalmente).",
+      "Espalhe essa farofa sobre as maçãs, cobrindo tudo.",
+      "Leve ao forno (200ºC) até a farofa dourar e o suco da maçã começar a borbulhar nas laterais.",
+      "Sirva quente, de preferência com uma bola de sorvete de creme."
+    ]
+  },
+  {
+    "id": 18,
+    "titulo": "Cocada de Forno Cremosa",
+    "imagem": "recipes/recipe-2.jpeg",
+    "tempo_preparo": "10min",
+    "tempo_cozimento": "30min",
+    "tags": ["Doce", "Fácil"],
+    "ingredientes": [
+      "3 ovos",
+      "1 lata de leite condensado",
+      "1 vidro de leite de coco",
+      "200g de coco ralado em flocos (seco ou fresco)",
+      "1 colher (sopa) de fermento em pó"
+    ],
+    "modo_preparo": [
+      "Numa tigela, bata os ovos ligeiramente com um garfo.",
+      "Adicione o leite condensado e o leite de coco e misture.",
+      "Junte o coco ralado e o fermento. A massa fica bem líquida mesmo.",
+      "Unte um refratário com bastante manteiga.",
+      "Despeje a mistura e leve ao forno a 180ºC até ficar dourado por cima e cremoso por dentro (cerca de 30min)."
+    ]
+  },
+  {
+    "id": 19,
+    "titulo": "Manjar Branco com Ameixa",
+    "imagem": "recipes/recipe-3.jpeg",
+    "tempo_preparo": "15min",
+    "tempo_cozimento": "15min",
+    "tags": ["Doce", "Ano Novo"],
+    "ingredientes": [
+      "1 litro de leite",
+      "1 vidro de leite de coco",
+      "1 lata de leite condensado",
+      "1 xícara (chá) de amido de milho (maizena)",
+      "Calda: 1 xícara de açúcar, 1 xícara de água, 15 ameixas secas"
+    ],
+    "modo_preparo": [
+      "Numa panela grande, dissolva a maizena no leite frio. Junte o leite de coco e o leite condensado.",
+      "Leve ao fogo médio, mexendo sempre para não empelotar. Quando ferver, abaixe o fogo e cozinhe por mais 2 minutos.",
+      "Despeje em uma forma de furo no meio molhada (isso ajuda a desenformar). Leve à geladeira por 6 horas.",
+      "Calda: Ferva o açúcar, a água e as ameixas até formar uma calda rala. Espere esfriar e jogue sobre o manjar desenformado."
+    ]
+  },
+  {
+    "id": 20,
+    "titulo": "Brownie Molhadinho",
+    "imagem": "recipes/recipe-4.jpeg",
+    "tempo_preparo": "15min",
+    "tempo_cozimento": "25min",
+    "tags": ["Doce", "Chocolate"],
+    "ingredientes": [
+      "200g de chocolate meio amargo derretido",
+      "100g de manteiga derretida",
+      "1 xícara de açúcar (use metade mascavo se tiver, fica mais úmido)",
+      "3 ovos",
+      "1/2 xícara de farinha de trigo",
+      "3 colheres de chocolate em pó"
+    ],
+    "modo_preparo": [
+      "Misture o chocolate derretido com a manteiga.",
+      "Adicione o açúcar e os ovos e bata bem com um batedor manual.",
+      "Peneire a farinha e o chocolate em pó sobre a mistura e incorpore delicadamente. Não bata muito para não desenvolver glúten (queremos um brownie denso, não um bolo fofo).",
+      "Despeje em uma forma retangular pequena, forrada com papel manteiga.",
+      "Asse a 180ºC por 20-25min. O teste do palito deve sair úmido e com migalhas, não seco!"
+    ]
   }
 ]
