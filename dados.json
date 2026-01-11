@@ -6,8 +6,8 @@
     "tempo_preparo": "15min",
     "tempo_cozimento": "5min",
     "tags": ["Carne", "Almoço"],
-    "ingredientes": ["1kg de carne", "Sal", "Pimenta"],
-    "modo_preparo": ["Tempere a carne", "Asse por 15 min"]
+    "ingredientes": ["1kg de carne", "Sal", "Pimenta", "Alecrim"],
+    "modo_preparo": ["Tempere a carne com sal e pimenta.", "Deixe marinar por 2 horas.", "Asse em fogo médio por 15 minutos."]
   },
   {
     "id": 2,
@@ -16,8 +16,8 @@
     "tempo_preparo": "30min",
     "tempo_cozimento": "40min",
     "tags": ["Carne", "Jantar"],
-    "ingredientes": ["Costela", "Barbecue"],
-    "modo_preparo": ["Ferva a costela", "Adicione molho"]
+    "ingredientes": ["2kg de costela", "Molho Barbecue", "Sal grosso"],
+    "modo_preparo": ["Ferva a costela na água com sal.", "Escorra e passe o molho barbecue.", "Leve ao forno por 40 minutos."]
   },
   {
     "id": 3,
@@ -26,17 +26,17 @@
     "tempo_preparo": "10min",
     "tempo_cozimento": "20min",
     "tags": ["Vegetariano", "Sopa"],
-    "ingredientes": ["Cenoura", "Batata", "Água"],
-    "modo_preparo": ["Corte tudo", "Cozinhe na água"]
+    "ingredientes": ["3 Cenouras", "4 Batatas", "1 Litro de Água", "Salsinha"],
+    "modo_preparo": ["Corte todos os legumes em cubos.", "Cozinhe na água fervente até ficarem macios.", "Tempere a gosto."]
   },
-    {
+  {
     "id": 4,
     "titulo": "Panqueca de Banana",
     "imagem": "recipes/recipe-4.jpeg",
     "tempo_preparo": "5min",
     "tempo_cozimento": "5min",
     "tags": ["Café da manhã", "Doce"],
-    "ingredientes": ["Banana", "Ovo", "Aveia"],
-    "modo_preparo": ["Amasse a banana", "Misture o ovo", "Frite"]
+    "ingredientes": ["2 Bananas maduras", "2 Ovos", "1 xícara de Aveia", "Canela"],
+    "modo_preparo": ["Amasse as bananas.", "Misture com os ovos e a aveia.", "Frite em uma frigideira untada até dourar."]
   }
 ]

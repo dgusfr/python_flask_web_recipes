@@ -4,41 +4,30 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 
+def carregar_dados():
+    with open("dados.json", encoding="utf-8") as arquivo:
+        return json.load(arquivo)
+
+
 @app.route("/")
 def home():
-    with open("dados.json", encoding="utf-8") as arquivo:
-        lista_receitas = json.load(arquivo)
+    todas_receitas = carregar_dados()
+    return render_template("index.html", receitas=todas_receitas[:3])
 
-    return render_template("index.html", receitas=lista_receitas)
+
+@app.route("/receitas")
+def receitas_list():
+    todas_receitas = carregar_dados()
+    return render_template("recipes.html", receitas=todas_receitas)
 
 
 @app.route("/receita/<int:id>")
 def receita(id):
-    with open("dados.json", encoding="utf-8") as arquivo:
-        lista_receitas = json.load(arquivo)
-
-    receita_encontrada = None
-    for item in lista_receitas:
+    todas_receitas = carregar_dados()
+    for item in todas_receitas:
         if item["id"] == id:
-            receita_encontrada = item
-            break
-
-    if receita_encontrada:
-        return render_template("receita.html", receita=receita_encontrada)
-    else:
-        return "Receita não encontrada!", 404
-
-
-@app.route("/sobre")
-def about():
-    with open("dados.json", encoding="utf-8") as arquivo:
-        lista_receitas = json.load(arquivo)
-    return render_template("about.html", receitas=lista_receitas[:3])
-
-
-@app.route("/contato")
-def contact():
-    return render_template("contact.html")
+            return render_template("receita.html", receita=item)
+    return "Receita não encontrada!", 404
 
 
 if __name__ == "__main__":
