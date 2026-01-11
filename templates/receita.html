@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="recipe-page">
+  <section class="recipe-hero">
+    <img src="{{ url_for('static', filename='assets/' + receita.imagem) }}" class="img recipe-hero-img" />
+    <article class="recipe-info">
+      <h2>{{ receita.titulo }}</h2>
+      <p>
+        Uma deliciosa receita de {{ receita.titulo }} pronta para você fazer em casa.
+      </p>
+      <div class="recipe-icons">
+        <article>
+          <i class="fas fa-clock"></i>
+          <h5>tempo de preparo</h5>
+          <p>{{ receita.tempo_preparo }}</p>
+        </article>
+        <article>
+          <i class="far fa-clock"></i>
+          <h5>tempo de cozimento</h5>
+          <p>{{ receita.tempo_cozimento }}</p>
+        </article>
+      </div>
+      <p class="recipe-tags">
+        Tags : 
+        {% for tag in receita.tags %}
+          <a href="#">{{ tag }}</a>
+        {% endfor %}
+      </p>
+    </article>
+  </section>
+  
+  <section class="recipe-content">
+    <article>
+      <h4>instruções</h4>
+      {% for passo in receita.modo_preparo %}
+      <div class="single-instruction">
+        <header>
+          <p>passo {{ loop.index }}</p> <div></div>
+        </header>
+        <p>{{ passo }}</p>
+      </div>
+      {% endfor %}
+    </article>
+    
+    <article class="second-column">
+      <div>
+        <h4>ingredientes</h4>
+        {% for ingrediente in receita.ingredientes %}
+        <p class="single-ingredient">{{ ingrediente }}</p>
+        {% endfor %}
+      </div>
+    </article>
+  </section>
+</div>
+{% endblock %}
