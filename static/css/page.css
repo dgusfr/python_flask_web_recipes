@@ -1,0 +1,9 @@
+.page {
+  width: 90vw;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.page {
+  padding-top: 2rem;
+  min-height: calc(100vh - (6rem + 4rem));
+}

@@ -1,0 +1,10 @@
+.contact-form {
+  width: 100%;
+  margin: 0;
+}
+.contact-container {
+  display: grid;
+  gap: 2rem 3rem;
+  padding-bottom: 3rem;
+}
+
