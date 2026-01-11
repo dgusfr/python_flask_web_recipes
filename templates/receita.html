@@ -7,7 +7,7 @@
     <article class="recipe-info">
       <h2>{{ receita.titulo }}</h2>
       <p>
-        Uma deliciosa receita de {{ receita.titulo }} pronta para você fazer em casa.
+        Uma deliciosa receita pronta para você fazer em casa. Siga o passo a passo abaixo!
       </p>
       <div class="recipe-icons">
         <article>
@@ -22,9 +22,9 @@
         </article>
       </div>
       <p class="recipe-tags">
-        Tags : 
+        Tags: 
         {% for tag in receita.tags %}
-          <a href="#">{{ tag }}</a>
+          <span style="background: #eee; padding: 2px 5px; border-radius: 4px; margin-right: 5px;">{{ tag }}</span>
         {% endfor %}
       </p>
     </article>
@@ -36,7 +36,8 @@
       {% for passo in receita.modo_preparo %}
       <div class="single-instruction">
         <header>
-          <p>passo {{ loop.index }}</p> <div></div>
+          <p>passo {{ loop.index }}</p>
+          <div></div>
         </header>
         <p>{{ passo }}</p>
       </div>

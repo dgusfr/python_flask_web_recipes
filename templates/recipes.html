@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <div class="mais_acessadas" style="margin-top: 2rem;">
+    <h1>Todas as Receitas</h1>
+  </div>
+
+  <div class="recipes-container">
+    <div class="tags-container">
+      <h4>Filtrar</h4>
+      <div class="tags-list">
+        <input type="text" placeholder="Buscar receita..." style="padding: 10px; width: 100%; border: 1px solid #ccc; border-radius: 5px;">
+        <br><br>
+        <a href="#">Carne</a>
+        <a href="#">Café da Manhã</a>
+        <a href="#">Vegetariano</a>
+      </div>
+    </div>
+
+    <div class="recipes-list">
+      {% for receita in receitas %}
+      <a href="{{ url_for('receita', id=receita.id) }}" class="recipe">
+        <img src="{{ url_for('static', filename='assets/' + receita.imagem) }}" class="img recipe-img" alt="{{ receita.titulo }}" />
+        <h5>{{ receita.titulo }}</h5>
+        <p>Preparo : {{ receita.tempo_preparo }} | Cozimento : {{ receita.tempo_cozimento }}</p>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+{% endblock %}
