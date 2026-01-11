@@ -13,7 +13,7 @@
   <nav class="navbar">
     <div class="nav-center">
       <div class="nav-header">
-        <a href="/" class="nav-logo">
+        <a href="{{ url_for('home') }}" class="nav-logo">
           <img src="{{ url_for('static', filename='assets/logo.png') }}" alt="Receitas da Sonia" />
         </a>
         <button class="nav-btn btn">
@@ -21,13 +21,8 @@
         </button>
       </div>
       <div class="nav-links">
-        <a href="/" class="nav-link"> Home </a>
-        <a href="{{ url_for('about') }}" class="nav-link"> Sobre </a>
-        <a href="tags.html" class="nav-link"> Categorias </a>
-        <a href="recipes.html" class="nav-link"> Receitas </a>
-        <div class="nav-link contact-link">
-          <a href="{{ url_for('contact') }}" class="btn"> Contato </a>
-        </div>
+        <a href="{{ url_for('home') }}" class="nav-link"> Home </a>
+        <a href="{{ url_for('receitas_list') }}" class="nav-link"> Receitas </a>
       </div>
     </div>
   </nav>
@@ -35,6 +30,7 @@
     {% block content %}
     {% endblock %}
   </main>
+
   <footer class="page-footer">
     <p>
       &copy; <span id="date"></span>
