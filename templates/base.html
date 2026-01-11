@@ -22,11 +22,11 @@
       </div>
       <div class="nav-links">
         <a href="/" class="nav-link"> Home </a>
-        <a href="about.html" class="nav-link"> Sobre </a>
+        <a href="{{ url_for('about') }}" class="nav-link"> Sobre </a>
         <a href="tags.html" class="nav-link"> Categorias </a>
         <a href="recipes.html" class="nav-link"> Receitas </a>
         <div class="nav-link contact-link">
-          <a href="contact.html" class="btn"> Contato </a>
+          <a href="{{ url_for('contact') }}" class="btn"> Contato </a>
         </div>
       </div>
     </div>
