@@ -3,7 +3,7 @@
 ## 🚀 Tecnologias Usadas
 
 * **Python 3**
-* **Flask** (Framework Web)
+* **Flask**
 * **Jinja2** (Motor de Templates)
 * **HTML5 / CSS3 / JavaScript** (Frontend original)
 
