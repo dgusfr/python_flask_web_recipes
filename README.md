@@ -5,7 +5,7 @@
 * **Python 3**
 * **Flask**
 * **Jinja2**
-* **HTML5 / CSS3 / JavaScript** (Frontend original)
+* **HTML5 / CSS3 / JavaScript** 
 
 ## 📂 Estrutura do Projeto
 
