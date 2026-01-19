@@ -1,6 +1,6 @@
 # Python Flask Web Recipes
 
-## 🚀 Tecnologias Usadas
+## Tecnologias Usadas
 
 * **Python 3**
 * **Flask**
